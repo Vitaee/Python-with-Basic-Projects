@@ -1,0 +1,22 @@
+Our plan to write this program;
+
+Make a plan for tiling a rectangular bathroom floor with alternating black and white tiles measuring 4 × 4 inches. The floor dimensions, measured in inches, are multiples of 4
+
+Determine the inputs and outputs.
+
+The inputs are the floor dimensions (length × width), measured in inches.
+
+The output is a tiled floor.
+
+Step2) Break down the problem into smaller tasks.
+
+A natural subtask is to lay one row of tiles. If you can solve that, then you can solve the problem by laying one row next to the other, starting from a wall, until you reach the opposite wall. How do you lay a row? Start with a tile at one wall. If it is white, put a black one next to it. If it is black, put a white one next to it. Keep going until you reach the opposite wall. The row will contain width / 4 tiles.
+
+Step-3) Describe each subtask in pseudocode.
+
+Suppose you want to tile an area measuring 20 × 12 inches. The first step is to place a black tile in the northwest corner.
+
+
+Whether you can check the all examples of this program to understand the topic and more.
+https://vesperbooks.com/products/python-for-everyone-2nd-edition-by-cay-s-horstmann-pdf
+
